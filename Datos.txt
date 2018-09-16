@@ -1,0 +1,15 @@
+-- Generar Inserts.
+genInsert(@prefijo VARCHAR (30), @nombre_tabla VARCHAR (50), @esquema_t VARCHAR (30), @esquema_p VARCHAR (30)).
+-- Generar Deletes.
+genDelete(@prefijo VARCHAR (30), @nombre_tabla VARCHAR (50), @esquema_t VARCHAR (30), @esquema_p VARCHAR (30)).
+-- Generar esquemas.
+createSchema(@nombre NVARCHAR(30))
+-- Consultar esquemas.
+SELECT get_schemas;
+-- Consultar nombres de las tablas.
+SELECT get_table_names;
+--Generar Updates.
+genUpdate(@prefijo VARCHAR (30), @nombre_tabla VARCHAR (50), @esquema_t VARCHAR (30), @esquema_p VARCHAR (30)).
+/****In proccess****/
+-- Generar Selects
+genSelects(@prefijo VARCHAR (30), @nombre_tabla VARCHAR (50), @esquema_t VARCHAR (30), @esquema_p VARCHAR (30)).
